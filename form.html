@@ -67,9 +67,44 @@
             <!-- name= should be same as for from choose label to group them -->
             <!-- so we just can choose 1 option -->
 
+            <label for="payment">payment:</label>
+            <select>
+                <option value="gopay">gopay</option>
+                <option value="ovo">ovo</option>
+                <option value="dana">dana</option>
+            </select>
 
+            <br>
 
+            <labrl for="pilihan">pilihan:</labrl>
+            <select>
+                <option for="gold">gold</option>
+                <option for="silver">silver</option>
+                <option for="diamond">diamond</option>
+            </select>
 
+            <br>
+
+            <labrl for="subscribe">subscribe:</labrl>
+            <input type="checkbox" id="subscribe">
+
+            <br>
+
+            <label for="o">agree:</label>
+            <input type="checkbox" id="o"><br>
+
+            <label for="comment">comment:</label>
+            <textarea id="comment" rows="10" cols="25"></textarea><br>
+
+            <label for="ff">choose file</label>
+            <input type="file" id="ff"><br>
+
+            <!-- to limit the file selections -->
+
+            <label for="ml">example file</label>
+            <input type="file" id="ml" accept="image/jpeg, image/png"><br>
+
+            <!-- enctype="multipart/form-data" for sendinhg a large file -->
             <input type="reset"><br>
             <input type="submit">
         </form>
