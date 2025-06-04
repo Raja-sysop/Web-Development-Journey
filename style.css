@@ -1,0 +1,37 @@
+body{
+    background-color:black;
+}
+
+h1{
+    color:aliceblue;
+}
+
+hr{
+    color:aquamarine;
+}
+
+p{
+    color:aliceblue;
+}
+
+#p1{
+    color:bisque;
+}
+
+#p2{
+    color:blueviolet;
+}
+
+#p3{
+    color:rgb(136, 141, 133);
+}
+
+.odd{
+    color:blue;
+}
+
+.even{
+    color:brown;
+}
+
+
