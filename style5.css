@@ -1,0 +1,19 @@
+body{
+    border: 3px dashed rgb(57, 156, 223);
+    display: flow-root;
+}
+#img1{
+    float:left;
+}
+
+#img2{
+    float:right;
+}
+
+div{
+    border: 5px solid rgb(110, 189, 212);
+    height: 50px;
+    overflow:scroll;
+}
+
+/* flow-root to make everything that floating stay in the border (not overfloat) */
