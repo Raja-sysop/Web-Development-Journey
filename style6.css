@@ -1,0 +1,20 @@
+.box{
+    background-color:bisque;
+    border: 2px solid hsl(180, 100%, 50%);
+    padding:25px;
+    width:50%;
+    height:auto;
+    box-sizing: border-box;
+    float:left;
+    min-height:50%;
+}
+
+.container{
+    background-color:grey;
+    height:100vh
+}
+
+/* padding is for magin inside of a float */
+/* height:100vh in the container class to show/display color in it */
+
+/* box-sizin:border-box and float:left to make div no 2 in line with div no 1 */
