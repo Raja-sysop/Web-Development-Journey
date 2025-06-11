@@ -1,0 +1,13 @@
+body{
+    background-image: url(images/Background\ images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* background-repeat:no-repeat to make the background not repeated */
+/* background-position: center to make the background center horizontally (not vertically) */
+/* background-attachment: fixed to make it center verical and horizontal */
+/* background-size:cover to make it cover all over the website*/
+
