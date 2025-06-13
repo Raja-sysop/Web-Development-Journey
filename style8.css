@@ -1,0 +1,27 @@
+#father{
+    border: 2px solid antiquewhite;
+}
+
+/* descendant */
+
+#father p{
+    background-color:grey;
+}
+
+/* child */
+
+#father > p{
+    background-color:aliceblue;
+}
+
+/* general sibling */
+
+#father ~ p{
+    background-color:bisque;
+}
+
+/* adjecent sibling */
+
+#father + p{
+    background-color:rgb(27, 117, 117);
+}
