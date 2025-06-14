@@ -1,0 +1,56 @@
+a:link{
+    color:red;
+}
+
+/* hover works when your cursor on the link */
+a:hover{
+    color:hsl(0, 81%, 71%);
+}
+
+/* active when you hold click on the link */
+a:active{
+    color:#f1b7b7;
+}
+
+/* visited when you has visited the link */
+a:visited{
+    color:hsl(54, 76%, 53%);
+}
+
+/* --------- */
+#link1:link{
+    color:hsl(120, 100%, 50%);
+}
+
+#link1:hover{
+    color:hsl(189, 100%, 50%);
+    font-size:large;
+}
+
+#link1:active{
+    color:hsl(0, 100%, 50%);
+    font-size:larger;
+}
+
+/* ----------------------------------------------------------------------------- */
+
+.list1:hover{
+    color:aquamarine;
+}
+
+.list2:hover{
+    background-color:aquamarine;
+}
+
+.list3:not(:hover){
+    background-color:grey;
+}
+
+.list3:hover{
+    background-color:aquamarine;
+}
+
+/*  a:hover(odd)
+    a:hover(even)
+    a:hover(1)
+    a:hover(4) */
