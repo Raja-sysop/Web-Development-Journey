@@ -1,0 +1,36 @@
+body{
+    background-image:url(images/Background\ images.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+/* :: double colon to make psuedo element */
+
+h1::first-letter{
+    font-size:2em;
+    font-style:italic;
+}
+
+p::first-line{
+    background-color:bisque;
+}
+
+#list li::before{
+    content: " this ";
+}
+
+#apple::after{
+    content: " test";
+}
+
+#orange::after{
+    content: " test";
+}
+
+#banana::after{
+    content: " test";
+}
+
+
