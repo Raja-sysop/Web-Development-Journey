@@ -1,0 +1,24 @@
+.pagination{
+    text-align:center;
+}
+
+.pagination a{
+    padding: 8px 15px;
+    color:green;
+    text-decoration:none;
+    display:inline-block;
+}
+
+.pagination a.on{
+    background-color:blanchedalmond;
+}
+
+.pagination a:hover:not(.on){
+    background-color:grey;
+}
+
+
+
+/* text-decoration is used to remove the underlined */
+
+
